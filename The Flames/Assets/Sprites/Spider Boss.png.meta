@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: 34f512029547dd147bc541d12e9c93e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4191649264047443058
+    second: Spider Boss_0
+  - first:
+      213: 4589475804028342180
+    second: Spider Boss_1
+  - first:
+      213: 9205429019452866431
+    second: Spider Boss_2
+  - first:
+      213: 8954785106520665524
+    second: Spider Boss_3
+  - first:
+      213: 2414305915690643294
+    second: Spider Boss_4
+  - first:
+      213: -4132088968476965241
+    second: Spider Boss_5
+  - first:
+      213: -8356615966258176229
+    second: Spider Boss_6
+  - first:
+      213: -4446852703190443549
+    second: Spider Boss_7
+  - first:
+      213: 1259719560219889891
+    second: Spider Boss_8
+  - first:
+      213: 3503146666668278311
+    second: Spider Boss_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spider Boss_0
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 785
+        width: 371
+        height: 291
+      alignment: 9
+      pivot: {x: 0.11976858, y: 0.59695256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c439e1ccabb2a30800000000000000
+      internalID: 4191649264047443058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider Boss_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 628
+        width: 492
+        height: 436
+      alignment: 9
+      pivot: {x: 0.5159288, y: 0.20880911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af0c5c7de711bf30800000000000000
+      internalID: 4589475804028342180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider Boss_2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 476
+        width: 431
+        height: 295
+      alignment: 9
+      pivot: {x: 0.8636653, y: 0.6168908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f7f85bbe040cf70800000000000000
+      internalID: 9205429019452866431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider Boss_3
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 288
+        width: 266
+        height: 144
+      alignment: 9
+      pivot: {x: 0.1287742, y: 0.40203774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd6f122c99c54c70800000000000000
+      internalID: 8954785106520665524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider Boss_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 294
+        width: 274
+        height: 129
+      alignment: 9
+      pivot: {x: 0.8889892, y: 0.3663458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f6dd35076518120800000000000000
+      internalID: 2414305915690643294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider Boss_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 86
+        width: 282
+        height: 153
+      alignment: 9
+      pivot: {x: 0.21653439, y: 0.8278218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786ce95d9fed7a6c0800000000000000
+      internalID: -4132088968476965241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider Boss_6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 98
+        width: 313
+        height: 152
+      alignment: 9
+      pivot: {x: 0.87056684, y: 0.5928069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fd2decd06570c80800000000000000
+      internalID: -8356615966258176229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider Boss_7
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 474
+        width: 82
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e919d1e60b9942c0800000000000000
+      internalID: -4446852703190443549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider Boss_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 471
+        width: 94
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e09487044c6b7110800000000000000
+      internalID: 1259719560219889891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider Boss_9
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 183
+        width: 853
+        height: 823
+      alignment: 9
+      pivot: {x: 0.5183751, y: 0.06958464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7224bd6355dad9030800000000000000
+      internalID: 3503146666668278311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
