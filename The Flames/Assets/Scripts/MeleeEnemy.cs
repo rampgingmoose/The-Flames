@@ -11,6 +11,12 @@ namespace ST
         private float attackTime;
         public float attackSpeed;
 
+        private AudioSource audioSource;
+
+        private void Awake()
+        {
+            audioSource = GetComponentInChildren<AudioSource>();
+        }
         private void FixedUpdate()
         {
             HandleMovement();
@@ -28,6 +34,8 @@ namespace ST
                 {
                     if (Time.time >= attackTime)
                     {
+                        audioSource.Play();
+
                         StartCoroutine(Attack());
                         attackTime = Time.time + timeBetweenAttacks;
                     }

@@ -12,9 +12,6 @@ GameObject:
   - component: {fileID: 2636541654967494997}
   - component: {fileID: 3979402431979953912}
   - component: {fileID: 7272654639623847285}
-  - component: {fileID: 7514518708609936158}
-  - component: {fileID: 260850369}
-  - component: {fileID: -2998512785027545603}
   m_Layer: 0
   m_Name: Fire Staff
   m_TagString: Weapon
@@ -123,58 +120,6 @@ MonoBehaviour:
   projectile: {fileID: 6240657416571510448, guid: 80b9f52ae33275c48b6c1e6a646a9f21, type: 3}
   shootPoint: {fileID: 7668173674888354704}
   shotCoolDown: 0.3
---- !u!114 &7514518708609936158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2636541654967494999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42ec768d9da7cf845a336fdadd17548b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weaponToEquip: {fileID: 7272654639623847285}
---- !u!61 &260850369
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2636541654967494999}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.083608866, y: 3.1202602}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.4522235, y: 0.050488986}
-    oldSize: {x: 1.75, y: 4.65}
-    newSize: {x: 1.75, y: 4.65}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.75, y: 6.7100677}
-  m_EdgeRadius: 0
---- !u!114 &-2998512785027545603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2636541654967494999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42ec768d9da7cf845a336fdadd17548b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weaponToEquip: {fileID: 0}
 --- !u!1 &9138021168869934709
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,7 +131,7 @@ GameObject:
   - component: {fileID: 7668173674888354704}
   m_Layer: 0
   m_Name: ShotPoint
-  m_TagString: Weapon
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -222,7 +167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5230129984507401579, guid: 232d671a911d817418686fd031919d47, type: 3}
       propertyPath: m_TagString
-      value: Weapon
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6079547965562605620, guid: 232d671a911d817418686fd031919d47, type: 3}
       propertyPath: m_LocalPosition.x

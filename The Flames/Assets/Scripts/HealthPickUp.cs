@@ -10,6 +10,8 @@ namespace ST
 
         public int healAmount;
 
+        public GameObject gainHealthParticles;
+
         private void Start()
         {
             player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
@@ -19,6 +21,7 @@ namespace ST
             if (collision.tag == "Player")
             {
                 player.GetComponent<Player>().OnHealthPickUp(healAmount);
+                Instantiate(gainHealthParticles, transform.position, transform.rotation);
             }
 
             Destroy(gameObject);

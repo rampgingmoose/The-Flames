@@ -13,12 +13,15 @@ namespace ST
 
         public GameObject projectile;
 
+        private AudioSource audioSource;
+
         Animator anim;
 
         public override void Start()
         {
             base.Start();
             anim = GetComponent<Animator>();
+            audioSource = GetComponentInChildren<AudioSource>();
         }
 
         private void FixedUpdate()
@@ -50,6 +53,7 @@ namespace ST
             Quaternion rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
             shotPoint.rotation = rotation;
 
+            audioSource.Play();
             Instantiate(projectile, shotPoint.position, shotPoint.rotation);
         }
     }

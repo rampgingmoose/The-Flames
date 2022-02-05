@@ -21,6 +21,7 @@ namespace ST
         public bool finishedSpawning;
 
         public GameObject boss;
+        public GameObject bossHealthBar;
         public Transform bossSpawnPoint;
 
         private Wave currentWave;
@@ -81,6 +82,7 @@ namespace ST
                 else
                 {
                     Instantiate(boss, bossSpawnPoint.position, bossSpawnPoint.rotation);
+                    bossHealthBar.SetActive(true);
                 }
             }
         }

@@ -13,9 +13,12 @@ namespace ST
 
         public GameObject explosion;
 
+        public GameObject soundObject;
+
         private void Start()
         {
             Invoke("DestroyProjectile", lifeTime);
+            Instantiate(soundObject, transform.position, transform.rotation);
         }
 
         private void Update()

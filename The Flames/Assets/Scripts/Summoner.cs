@@ -6,10 +6,10 @@ namespace ST
 {
     public class Summoner : Enemy
     {
-        public float minX;
-        public float maxX;
-        public float minY;
-        public float maxY;
+        public float minX = -103f;
+        public float maxX = 107f;
+        public float minY = -63f;
+        public float maxY = 53f;
         public float stoppingDistance = 10f;
         public float attackSpeed;
         private float timer;
@@ -19,10 +19,17 @@ namespace ST
 
         public Enemy enemyToSummon;
 
+        private AudioSource audioSource;
+
+        private void Awake()
+        {
+            anim = GetComponent<Animator>();
+            audioSource = GetComponentInChildren<AudioSource>();
+        }
+
         public override void Start()
         {
             base.Start();
-            anim = GetComponent<Animator>();
             float randomX = Random.Range(minX, maxX);
             float randomY = Random.Range(minY, maxY);
             targetPosition = new Vector2(randomX, randomY);
@@ -69,6 +76,7 @@ namespace ST
             if (player != null)
             {
                 Instantiate(enemyToSummon, transform.position, transform.rotation);
+                audioSource.Play();
             }
         }
 

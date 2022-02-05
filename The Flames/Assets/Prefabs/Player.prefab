@@ -733,6 +733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 30
   health: 5
+  hurtAnim: {fileID: 0}
   hearts:
   - {fileID: 0}
   - {fileID: 0}
@@ -741,6 +742,7 @@ MonoBehaviour:
   - {fileID: 0}
   fullHearts: {fileID: 41991493015829096, guid: f5e157fe718312d4eac7f36550f8f9a7, type: 3}
   emptyHearts: {fileID: -6233347293432678915, guid: f5e157fe718312d4eac7f36550f8f9a7, type: 3}
+  playerDeathParticles: {fileID: 1769364164532829972, guid: 7fe372a003a8f8c40ab3443d943b6541, type: 3}
 --- !u!50 &28077775224733155
 Rigidbody2D:
   serializedVersion: 4

@@ -11,9 +11,13 @@ namespace ST
 
         public int health;
 
+        public int weaponsInInventory;
+        GameObject[] weaponCount;
+
         private Rigidbody2D rigidBody;
         private Animator anim;
         public Animator hurtAnim;
+        private AudioSource audioSource;
 
         private Vector2 moveAmount;
 
@@ -23,11 +27,17 @@ namespace ST
         public Sprite fullHearts;
         public Sprite emptyHearts;
 
+        public GameObject playerDeathParticles;
+
+        private SceneTransitions sceneTransitions;
+
         private void Start()
         {
             rigidBody = GetComponent<Rigidbody2D>();
             anim = GetComponent<Animator>();
             weapon = GetComponentInChildren<Weapon>();
+            audioSource = GetComponent<AudioSource>();
+            sceneTransitions = FindObjectOfType<SceneTransitions>();
         }
 
         private void Update()
@@ -66,17 +76,19 @@ namespace ST
             hurtAnim.SetTrigger("hurt");
             UpdateHealthUI(health);
             if (health <= 0)
-            {
+            {                
                 Destroy(this.gameObject);
+                Instantiate(playerDeathParticles, transform.position, transform.rotation);
+                sceneTransitions.LoadScene("LoseScene");
             }
         }
 
-        public void ChangeWeapon(Weapon weaponToEquip)
+        public void ChangeWeapon(GameObject weaponToEquip)
         {
-            if (weapon != null)
+            if (weaponToEquip != null)
             {
                 Destroy(GameObject.FindGameObjectWithTag("Weapon"));
-                Instantiate(weaponToEquip, transform.position, transform.rotation, transform);
+                Instantiate(weaponToEquip, transform.position, transform.rotation, transform);                
             }
         }
 

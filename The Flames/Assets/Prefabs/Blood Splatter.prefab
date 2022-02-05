@@ -94,6 +94,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2174621152214555829}
   - component: {fileID: 3034782343589545997}
+  - component: {fileID: -6111339514485232376}
+  - component: {fileID: 1749785975024133254}
   m_Layer: 0
   m_Name: Blood Splatter
   m_TagString: Untagged
@@ -167,6 +169,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-6111339514485232376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2640104763537316932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8178700712e017f429684575ab13dae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1749785975024133254
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2640104763537316932}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7626fb650cfd4f343adafbee6092bac7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4244108218505284285
 GameObject:
   m_ObjectHideFlags: 0
